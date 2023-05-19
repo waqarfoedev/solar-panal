@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="about-heading">
         <h1>Chi Siamo</h1>
         <hr className="about-hr" />
@@ -60,6 +60,22 @@ const About = () => {
           </p>
         </div>
       </div>
+      <div className="about-qute">
+        <div className="qute">
+          <img src="/images/text-cteation-left.svg" alt="left" />
+        </div>
+
+        <h3 className="qute-h3">
+          Non sviluppiamo pannelli fotovoltaici. Il pannello è solo una
+          componente di una soluzione ingegneristica più completa che comprende
+          sensoristiche avanzate e l'integrazione con i sistemi domotici di
+          casa.
+        </h3>
+        <div className="qute">
+          <img src="/images/text-cteation-right.svg" alt="right" />
+        </div>
+      </div>
+      <p className="about-end">- Cristian Testoni -</p>
     </div>
   );
 };

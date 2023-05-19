@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+  const [click, setClick] = useState(false);
+  const [home, setHome] = useState("home");
+  const handleClick = () => setClick(!click);
+
+  const closeMenu = () => {
+    setClick(false);
+    setHome("");
+  };
   return (
-    <>
+    <div className="nav-bar">
       <div className="header">
         <nav className="contact">
-          <a className="logo-header" href="#">
+          <a href="/" className="logo-header">
             <img src="/images/logo 1.png" alt="Logo" />
           </a>
           <ul>
@@ -26,14 +35,23 @@ const Header = () => {
         </nav>
       </div>
       <div className="menu-bar">
-        <ul>
+        <div className="hamburger" onClick={handleClick}>
+          {click ? (
+            <FaTimes size={30} style={{ color: "#ffffff" }} />
+          ) : (
+            <FaBars size={30} style={{ color: "#ffffff" }} />
+          )}
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a className="active" href="#">
+            <a href="/" className={home} onClick={closeMenu}>
               Home
             </a>
           </li>
           <li>
-            <a href="#">Chi Siamo</a>
+            <a href="#about" onClick={closeMenu}>
+              Chi Siamo
+            </a>
           </li>
           <li>
             <a href="#">S.I.R.E</a>
@@ -52,7 +70,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

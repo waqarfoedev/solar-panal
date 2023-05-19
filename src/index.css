@@ -40,8 +40,10 @@ nav ul{
 li img{
   padding-left: 22px;
 }
-
-.active{
+.home{
+  color: #86BE3F
+}
+.menu-bar .active{
   color: #86BE3F
 }
 .btn-green{
@@ -54,9 +56,29 @@ li img{
   padding: 14px 22px 14px 22px;
   border-radius: 7px;
   border: none;
-
-
 }
+/* =========================== */
+.hamburger {
+  display: none;
+}
+.nav-menu {
+  display: flex;
+}
+.menu-bar ul li a:hover{
+  color: #86BE3F
+}
+.nav-bar{
+  background: #FFFFFF;
+  position: fixed;
+  height: 133 px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+}
+/* ========================== */
 .menu-bar ul li {
   list-style-type: none;
   display: inline;
@@ -78,6 +100,7 @@ li img{
   position: relative;
   text-align: center;
   color: white;
+  margin-top: 133px;
 }
 .centered {
   position: absolute;
@@ -156,4 +179,30 @@ li img{
 
     }
 
+    .about-qute{
+      display: flex;
+      justify-content: center;
+      margin: 53px 7px 30px 7px;
+
+    }
+    .qute{
+      padding: 0px 7px;
+    }
+    .qute-h3{
+      text-align: center;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 21px;
+      max-width: 790px;
+      line-height: 30px;
+      color: #363636;
+    }
+    .about-end{
+      font-family: 'Poppins';
+      text-align: center;
+      font-weight: 500;
+      font-size: 18px;
+      color: #86BE3F;
+    }
     /* ===========About end================== */
+
