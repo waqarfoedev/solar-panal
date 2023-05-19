@@ -153,9 +153,9 @@ li img{
   background: #F8F8F8;
   border-radius: 6px;
   width: 32%;
-  padding: 18px;
+  padding: 8px;
    text-align: center;
-   height: 277px;
+   height: 297px;
 
 
 }
@@ -205,4 +205,144 @@ li img{
       color: #86BE3F;
     }
     /* ===========About end================== */
+#sire{
+  display: flex ;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.box-1{
+  position: relative;
+  width: 5%;
+  top: 0;
+  left: 0;
+  flex-wrap: wrap;
 
+}
+.image-0{
+  padding-right: 6px;
+  transform: translate(-50%, 18%);
+}
+
+.image-1{
+  position: absolute;
+  width: 349px;
+  left: -19px;
+  top: 32px;
+  filter: drop-shadow(0px 0px 17px rgba(38, 57, 92, 0.13));
+  border-radius: 5px;
+}
+.image-2{
+  position: absolute;
+  left: 23px;
+  top: 73px;}
+.image-3{
+  position: absolute;
+  left: 148px;
+  width: 321px;
+  top: 262px;
+  filter: drop-shadow(0px 0px 17px rgba(38, 57, 92, 0.13));
+  border-radius: 5px;
+}
+.image-4{
+  position: absolute;
+  left: 409px;
+  top: 416px;}
+.frame{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.sire{
+  color: #86BE3F;
+}
+.title{
+  font-weight: 500;
+  font-size: 30px;
+}
+.heading-sire{
+  font-weight: 600;
+  font-size: 34px;
+}
+.paragraph-sire{
+  font-weight: 400;
+  font-size: 17px;
+  color: #666666;
+}
+.box-2{
+  width: 57%;
+}
+
+.frame-1{
+float: right;
+transform: translate(-160%, 18%);
+}
+.circle{
+  transform: translate(259%, 48%);
+  }
+.contentt{
+  padding-top: -679px;
+  text-align: left;
+  margin-top: -36px;
+}
+.hr{
+  border: 3px solid #86BE3F;
+  width:131px;
+  border-radius: 4px;
+  margin: 25px 485px 25px auto;
+  float: left;
+}
+/* =========SIRE end===================== */
+.feature-one .image{
+
+ padding:7px;
+ border: 3px solid #86BE3F;
+ width: 58px;
+ height: 58px;
+ border-radius: 50%;
+ margin: 4px 13px 0px 0px;
+}
+.icon{
+  align-items: center;
+  width: 39px;
+  height: 39px;
+}
+#feature{
+  background: url('../public/images/pattern-8 2.png');
+  display: flex ;
+  justify-content: space-between;
+  margin-top: 210px;
+  flex-direction: column;
+
+}
+.heading- h1{
+  margin-top: 87.1px;
+  text-align: center;
+}
+#feature .container{
+  display: flex !important;
+  padding: 0%;
+}
+.feature-one{
+display: flex;
+/* justify-content: flex-start; */
+}
+.box-feature1, .box-feature2{
+  padding: 32px;
+
+}
+.contentt h3{
+font-weight: 600;
+font-size: 20px;
+line-height: 84.02%;
+color: #1E1E1E;
+}
+.contentt p{
+font-weight: 400;
+font-size: 18px;
+line-height: 128.52%;
+color: #363636;
+}
+.contentt{
+height: 153px;
+  margin: 4px 0px;
+}

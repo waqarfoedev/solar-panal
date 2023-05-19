@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="/" className={home} onClick={closeMenu}>
+            <a href="#hero" className={home} onClick={closeMenu}>
               Home
             </a>
           </li>
@@ -54,10 +54,12 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#">S.I.R.E</a>
+            <a href="#sire" onClick={closeMenu}>
+              S.I.R.E
+            </a>
           </li>
           <li>
-            <a href="#">SIRE Features</a>
+            <a href="#feature">SIRE Features</a>
           </li>
           <li>
             <a href="#">Why SIRE?</a>
