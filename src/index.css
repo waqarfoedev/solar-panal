@@ -126,10 +126,11 @@ li img{
   color: #363636;
 }
 .about-hr{
-  border: 3px solid #86BE3F;
+  border: 2px solid #86BE3F;
   width:131px;
   border-radius: 4px;
   margin: 25px auto;
+  opacity: 1;
 
 
 }
@@ -285,11 +286,12 @@ transform: translate(-160%, 18%);
   margin-top: -36px;
 }
 .hr{
-  border: 3px solid #86BE3F;
+  border: 2px solid #86BE3F;
   width:131px;
   border-radius: 4px;
   margin: 25px 485px 25px auto;
   float: left;
+  opacity:1;
 }
 /* =========SIRE end===================== */
 .feature-one .image{
@@ -324,6 +326,7 @@ transform: translate(-160%, 18%);
 }
 .feature-one{
 display: flex;
+margin: 41px 0px ;
 /* justify-content: flex-start; */
 }
 .box-feature1, .box-feature2{
@@ -346,3 +349,64 @@ color: #363636;
 height: 153px;
   margin: 4px 0px;
 }
+/* ==========end Features================================ */
+
+.benefit{
+  text-align: center;
+  margin: 80px auto;
+}
+.cards{
+  display: flex;
+}
+
+.card{
+  margin: 0px 12px ;
+  align-items: center;
+  padding-top:  39px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+}
+.contenttt h3{
+  padding: 4px;
+  margin: 4px;
+  font-weight: 600;
+    font-size: 20px;
+    color: #1E1E1E;
+  }
+  .contenttt{
+    padding: 6px;
+text-align: center;
+  }
+  .contenttt p{
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card img{
+  height: 69px;
+  width: 69px;
+  margin: 24px;
+  }
+  .ban{
+    padding: 30px 0px;
+    margin: 50px 0px;;
+    background: #F9F9F9;
+    ;
+  }
+  .banner{
+ display: flex;
+ justify-content: space-between;
+  }
+  .banner .contenttt{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    width: 255px;
+    height: 147.9px;
+    text-transform: uppercase;
+    padding: 24px;
+    align-items: last baseline;
+}
+
+

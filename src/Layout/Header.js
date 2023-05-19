@@ -62,7 +62,7 @@ const Header = () => {
             <a href="#feature">SIRE Features</a>
           </li>
           <li>
-            <a href="#">Why SIRE?</a>
+            <a href="#benefit">Why SIRE?</a>
           </li>
           <li>
             <a href="#">SIRE Product</a>
