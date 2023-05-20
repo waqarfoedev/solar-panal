@@ -416,30 +416,53 @@ text-align: center;
   color: #666666;
 
 }
-.textt h3{
+.offer h4{
 font-family: 'Inter';
 font-weight: 500;
 font-size: 16px;
 color: #363636;
 }
+.offer p{
+  font-weight: 400;
+}
 .offer{
   background: #FFFFFF;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
-  margin-bottom: 24px;
+  margin: 0px 15px 24px 15px;
+  
 }
-.options div{
+.option {
+  display: flex;
+flex-direction: column;
   background-color: #F5F5F5;
+  align-items: center;
   border-radius: 50%;
   height: 61px;
   width: 61px;
-  padding:9px;}
+  margin: 18px 58px 18px 0px;
+  padding:11px;}
 
-.options{
+.options, .icons, .offers, .list div{
   display: flex;
 }
-.options p{
+.option p{
   margin-top: 19px;
 }
-.offers{
-  display: flex;
+.list{
+  min-height: 212px;
+}
+.list p{
+  margin-left: 9px;
+  padding-top: 0%;
+}
+.list .image{
+  margin-top: 6.5px;
+  width: 9px;
+  height: 12.15px;
+}
+.per{
+  margin-left: 24px;
+}
+.hea {
+margin-top: 34px;
 }
