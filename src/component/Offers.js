@@ -9,6 +9,13 @@ const Offers = () => {
       alt="arrow list icon"
     />
   );
+  const arrow_icon = (
+    <img
+      src="/images/errow-down-icon.svg"
+      alt="errow-down-icon"
+      className="arrow"
+    />
+  );
   return (
     <div className="container" id="offers">
       <div className="heading-">
@@ -62,7 +69,10 @@ const Offers = () => {
               </div>
             </div>
             <div className="list hea">
-              <h4>Scopri le caratteristiche tecniche</h4>
+              <div className=" heading_with_arrow">
+                <h4>Scopri le caratteristiche tecniche</h4>
+                {arrow_icon}
+              </div>
               <div>
                 <VscCircleLargeFilled className="sire image" />
                 <p>Te mpo di ricarica medio in estate</p>
@@ -133,7 +143,10 @@ const Offers = () => {
               </div>
             </div>
             <div className="list hea">
-              <h4>Title here if they have othervise remove this</h4>
+              <div className=" heading_with_arrow">
+                <h4>Title here if they have othervise remove this</h4>
+                {arrow_icon}
+              </div>
               <div>
                 <VscCircleLargeFilled className="sire image" />
                 <p>Siste ma 2 kW con accumuIo.</p>

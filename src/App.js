@@ -5,19 +5,19 @@ import SIRE from "./component/SIRE";
 import Features from "./component/Features";
 import Benefit from "./component/Benefit";
 import Offers from "./component/Offers";
+import Process from "./component/Process";
 
 function App() {
   return (
     <>
-      <div id="hero">
-        <Header />
-        <Hero />
-      </div>
+      <Header />
+      <Hero />
       <About />
       <SIRE />
       <Features />
       <Benefit />
       <Offers />
+      <Process />
     </>
   );
 }

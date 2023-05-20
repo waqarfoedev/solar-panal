@@ -27,9 +27,7 @@ const Header = () => {
               <span> info@solarinnovatio.com</span>
             </li>
             <li>
-              <button className="btn-green" href="#">
-                Contact Us
-              </button>
+              <button className="btn-green">Contact Us</button>
             </li>
           </ul>
         </nav>
@@ -44,7 +42,7 @@ const Header = () => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="#hero" className={home} onClick={closeMenu}>
+            <a href="#" className={home} onClick={closeMenu}>
               Home
             </a>
           </li>
@@ -68,7 +66,7 @@ const Header = () => {
             <a href="#offers">SIRE Product</a>
           </li>
           <li>
-            <a href="#">How it Works?</a>
+            <a href="#process">How it Works?</a>
           </li>
         </ul>
       </div>
