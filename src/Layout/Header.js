@@ -27,7 +27,9 @@ const Header = () => {
               <span> info@solarinnovatio.com</span>
             </li>
             <li>
-              <button className="btn-green">Contact Us</button>
+              <a className="btn-green" href="#contact_us">
+                Contact Us
+              </a>
             </li>
           </ul>
         </nav>

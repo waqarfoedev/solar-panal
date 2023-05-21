@@ -62,7 +62,6 @@ const Process = () => {
           <div className="b">
             <img src="/images/Installazione.svg" alt="Installazione" />
             <div className="offer bb">
-              {" "}
               <div className="ccard">
                 <div>
                   <img

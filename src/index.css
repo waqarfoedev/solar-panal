@@ -442,7 +442,7 @@ flex-direction: column;
   margin: 18px 58px 18px 0px;
   padding:11px;}
 
-.options, .icons, .offers, .list div, .bx{
+.options, .icons, .offers, .list div, .bx, .qus, .contactdetail, .contct , .contactus, .contactus_form{
   display: flex;
 }
 .option p{
@@ -509,4 +509,68 @@ margin: 14px ;
 }
 .ccard img{
   margin: 28px auto;
+}
+/* ================end process================ */
+.qus .dash_icon{
+  color: #363636;  min-width: 18.2px !important;
+  margin: 0px 18px;
+}
+.open_qus{
+  padding: 16px;
+border-radius: 6px;
+}
+
+  .elicp{
+  float: right;
+    transform: translate(15%, -118%);
+    }
+
+/* ===============end FAQs============== */
+
+.elicp_left{
+  float: left;
+    transform: translate(111%, -445%);
+    }
+
+.contactdetail, input, textarea{
+  padding: 24px;
+  flex-direction: column;
+  width: 34%;
+  border: 1px solid #DEDEDE;
+  border-radius: 9px;
+  margin: 15px;
+  flex: 1;
+}
+.flex2{
+  flex: 2.5 !important;
+}
+.contct{
+  align-items: flex-start;
+  margin: 4px;
+}
+.contct img{
+  padding: 4px;
+  margin-right: 19px;
+}
+input, textarea{
+  padding: 8px 20px;
+  margin: 8px;
+  width: auto;
+  border-radius: 5px;
+}
+.contect{
+  font-weight: 400;
+  font-size: 16px;
+  color: #363636;
+}
+.flex2 .btn .btn-green{
+  padding: 12px 50px;
+  align-items: end;
+  width: 141px;
+}
+.btn .btn-green{
+ float: right;
+}
+textarea{
+  min-height: 115px;
 }

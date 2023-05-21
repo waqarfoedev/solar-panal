@@ -6,6 +6,8 @@ import Features from "./component/Features";
 import Benefit from "./component/Benefit";
 import Offers from "./component/Offers";
 import Process from "./component/Process";
+import FAQs from "./component/FAQs";
+import ContactUs from "./component/ContactUs";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Benefit />
       <Offers />
       <Process />
+      <FAQs />
+      <ContactUs />
     </>
   );
 }
