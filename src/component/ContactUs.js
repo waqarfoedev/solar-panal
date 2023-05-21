@@ -34,7 +34,7 @@ const ContactUs = () => {
               <p>We Will get back to you within 24 hours. Or Call us Now</p>
             </div>
           </div>
-          <div className="contactdetail flex2">
+          <div className="contactdetail flex-2">
             <div className="contactus_form">
               <input placeholder="First Name" />
               <input placeholder="Last Name" />
