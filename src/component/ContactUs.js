@@ -42,7 +42,7 @@ const ContactUs = () => {
             <input placeholder="Email" />
             <textarea placeholder="Message" />
             <div className="btn">
-              <button className="btn-green">Send</button>
+              <button className="btn-green">SEND</button>
             </div>
           </div>
         </div>

@@ -8,6 +8,8 @@ import Offers from "./component/Offers";
 import Process from "./component/Process";
 import FAQs from "./component/FAQs";
 import ContactUs from "./component/ContactUs";
+import Newsletter from "./component/Newsletter";
+import Footer from "./Layout/Footer";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Process />
       <FAQs />
       <ContactUs />
+      <Newsletter />
+      <Footer />
     </>
   );
 }
