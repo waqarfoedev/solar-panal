@@ -81,7 +81,7 @@ const Process = () => {
               </div>
             </div>
           </div>
-          <div className="b ">
+          <div className="b bbbb">
             <img
               src="/images/Enjoy your Sun Power.svg"
               alt="Enjoy your Sun Power"

@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-column flex4 footer-">
-            <h2>Contact Us</h2>
+            <h2 className="h22">Contact Us</h2>
             <h2>
               <div className=" ans contct">
                 <img

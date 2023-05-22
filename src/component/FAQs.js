@@ -13,7 +13,7 @@ const FAQs = () => {
       <div className="elicp">
         <img src="/images/eclipe.svg" alt="eclipe" />
       </div>
-      <div className="container offer open_qus">
+      <div className="container offer open_qus quss">
         <div className="qus">
           <div className="dash_icon">{minus}</div>
           <h4>Dove si monta S.I.R.E.?</h4>

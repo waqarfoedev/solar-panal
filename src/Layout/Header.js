@@ -8,20 +8,13 @@ const Header = () => {
 
   const handleClick = (event) => {
     setActive(event.target.id);
+    setToggleMenu(!toggleMenu);
     setHome("");
   };
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
   };
-  window.addEventListener("scroll", function () {
-    var div = document.getElementById("myDiv");
-    if (window.scrollY > 0) {
-      div.classList.add("hidden");
-    } else {
-      div.classList.remove("hidden");
-    }
-  });
 
   return (
     <div className="nav-bar">

@@ -24,7 +24,7 @@ const Offers = () => {
       </div>
       <div className="offers">
         <div className="offer">
-          <img src="/images/post-1.png" alt="post-2" />
+          <img className="offer-img" src="/images/post-1.png" alt="post-2" />
           <div className="textt">
             <h2 className="sire title">S.I.R.E Direct</h2>
             <div className="list">
@@ -102,7 +102,7 @@ const Offers = () => {
         </div>
         {/* ======================================================================= */}
         <div className="offer">
-          <img src="/images/post-2.png" alt="post-2" />
+          <img className="offer-img" src="/images/post-2.png" alt="post-2" />
           <div className="textt">
             <h2 className="sire title">S.I.R.E Full</h2>
             <div className="list">

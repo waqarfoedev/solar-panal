@@ -71,7 +71,7 @@ const About = () => {
           sensoristiche avanzate e l'integrazione con i sistemi domotici di
           casa.
         </h3>
-        <div className="qute">
+        <div className="qute qute-bottom">
           <img src="/images/text-cteation-right.svg" alt="right" />
         </div>
       </div>
