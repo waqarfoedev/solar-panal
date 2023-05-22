@@ -4,7 +4,6 @@ const Header = () => {
   const [active, setActive] = useState("");
   const [home, setHome] = useState("home");
   const [toggleMenu, setToggleMenu] = useState(false);
-  // const [toggleMenuMobile, setToggleMenuMobile] = useState(true);
 
   const handleClick = (event) => {
     setActive(event.target.id);

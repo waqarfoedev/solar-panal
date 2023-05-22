@@ -100,6 +100,8 @@ li img{
 }
 
 .btn_icon {
+  border: none;
+  margin-left: 64px;
   display: none;
   position: absolute;
   
@@ -893,6 +895,8 @@ margin-top: 199px;
   }
   .socials img{
     padding: 11px;
+  }.banner .contenttt{
+    margin: 6px;
   }
   }
 
