@@ -5,7 +5,7 @@ const FAQs = () => {
   const minus = <img src="/images/minus.svg" alt="minus" />;
 
   return (
-    <div className="container">
+    <div className="container" id="faqs">
       <div className="heading-">
         <h1>Frequently Asked Questions</h1>
         <hr className="about-hr" />
